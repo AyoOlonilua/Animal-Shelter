@@ -8,10 +8,14 @@
     <title>Animal Shelter</title>
 </head>
 <body>
+    <div class="background1 w-100">
+        <img src="/img/depositphotos_2074097-stock-photo-contact-us.jpg" alt="" class="w-100">
+    </div>
 
     <header class="container p-2">
         <nav class="navbar navbar-expand-lg navbar-light ml-5 container text-dark">
             <ul class="navbar-nav">
+                <h5 class="text-warning font-weight-bold">PetShelter🌤</h5>
                 <li class="nav-item font-weight-bold">
                     <a class="nav-link text-warning" href="index.html">Home</a>
                 </li>
@@ -31,13 +35,42 @@
         </nav>
     </header>
 
-    <section class="container mt-3">
-        <div class="container">
-        </div>
+    <section class="container align-items-center w-50 mt-5 p-3">
+        <form id="contactUs" class="container">
+            <div class="form-group d-flex justify-content-center">
+                <div>
+                    <input id="first" class="form-control font-weight-bold border border-warning" type="text" placeholder="First Name">        
+                </div>
+                <div>
+                    <input id="last" class="form-control font-weight-bold border border-warning ml-3" type="text" placeholder="Last Name">  
+                </div>
+            </div>
+
+            <div class="form-group ml-5 justify-content-center">
+                <div class="ml-5 container">
+                    <input id="email" class="form-control ml-3 w-75 font-weight-bold border border-warning" type="text" placeholder="Email Address">        
+                </div>
+            </div>
+
+            <div class="form-group ml-5 justify-content-center">
+                <div class="ml-5 container">
+                    <input id="subject" class="form-control ml-3 w-75 font-weight-bold border border-warning" type="text" placeholder="Subject">        
+                </div>
+            </div>
+
+            <div class="form-group ml-5 justify-content-center">
+                <div class="ml-5 container">
+                    <input id="message" class="form-control ml-3 w-75 font-weight-bold border border-warning" type="text" placeholder="Your Message">        
+                </div>
+            </div>
+
+            <div class="ml-5">
+                <button class="p-1 bg-white ml-5 border border-white text-white">
+                    <input type="button" value="Submit Form" class="ml-4 text-white border borde-none bg-warning">
+                    <!-- <a href="#" class="text-white text-decoration-none">Submit Form</a> -->
+                </button>
+            </div>
+        </form>
     </section>
-    
-    <div class="background1 container w-100">
-        <img src="/img/depositphotos_52470369-stock-photo-people-holding-words-contact-us.jpg" alt="" class=" w-100">
-    </div>
 </body>
 </html>

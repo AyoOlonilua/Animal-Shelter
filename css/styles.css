@@ -1,6 +1,6 @@
 * {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+    }
 /* .navbar:hover {
     background-color: rgb(172, 194, 172);
 } */
@@ -37,6 +37,11 @@ li {
     z-index: -1;
     top: 0;
 } */
+/* .up {
+    background-color: antiquewhite;
+    background-size: 1400px;
+    opacity: 75%;
+} */
 .flex {
     background-color: aquamarine;
     border-radius: 10px;
@@ -44,6 +49,6 @@ li {
 .button {
     border-radius: 10px;
 }
-#contactUs {
+/* #contactUs {
     background-color: transparent;
-}
+} */

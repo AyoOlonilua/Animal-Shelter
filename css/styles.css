@@ -2,10 +2,6 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 li {
-    /* justify-content: center;
-    text-align: center;
-    align-content: center;
-    align-items: center; */
     margin-left: 300px;
 }
 #home, #animals, #about, #contact, #help {
@@ -27,11 +23,6 @@ li {
     z-index: -1;
     top: 0;
 }
-/* .up {
-    background-color: antiquewhite;
-    background-size: 1400px;
-    opacity: 75%;
-} */
 .flex {
     background-color: aquamarine;
     border-radius: 10px;
